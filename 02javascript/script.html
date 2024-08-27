@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="alert('test')">클릭</button>
+    <script>
+        document.write("test");
+        console.log("Hello");
+
+        var day;
+        var week = new Date().getDay();
+        console.log(week);
+
+        switch(week){
+            case 0: 
+                day = "일요일";
+                break;
+            case 2: 
+                day = "화요일";
+                break;
+        }
+
+        // document.write("오늘은 " + day + " 입니다. ")
+        document.write(`오늘은 ${day} 입니다아.`)
+
+        var city = ["서울","일산","화정"]
+
+        function printA(){
+            for(var i=0;i<city.length;i++){
+                document.write(`<br> 배열 데이터 =${city[i]}`);
+
+            }
+        }
+        printA();
+
+        function printArr(item,i){
+            document.write("<br> 배열 데이터 ["+i+"] : " + item + "")
+        }
+
+        city.forEach(printArr);
+
+        city.forEach(function(item,i){
+            document.write("<br> 배열 데이터 ["+i+"] : " + item)
+        })
+
+        document.write("<br>");
+
+        var data = [1,2,3,4,5,6]
+        function mapArr(value){
+            return value * value;
+        }
+        var mapData = data.map(mapArr);
+        document.write(mapData);
+    </script>
+
+
+
+<p id="var1"></p>
+<p class="var2"></p>
+<p id="var3"></p>
+
+<script>
+    var car={
+        name:'sonata',
+        speed:100,
+        color:'white'
+    }
+    document.getElementById('var1').innerHTML = car.name;
+    document.getElementsByClassName('var2')[0].innerHTML = car.speed;
+
+</script>
+<style>
+    .box{
+        width: 100px;
+        height: 100px;
+        background-color: skyblue;
+        transition: 0.3s;
+    }
+</style>
+
+<div class="box"></div>
+
+<script>
+    function boxChagne(){
+        document.getElementsByClassName('box')[0].style.backgroundColor = "red";
+        document.getElementsByClassName('box')[0].style.width = "150px";
+    }
+</script>
+<button onclick="boxChagne()">click</button>
+</body>
+</html>
