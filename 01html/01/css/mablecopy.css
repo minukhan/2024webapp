@@ -99,13 +99,17 @@ img{display: block;}
     
 } */
 
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
 .container .card .imgWrap{
     display: flex;
 
 }
-.container .banner{
-    justify-content: space-between;
+.banner{
     display: flex;
+    justify-content: space-between;
 }
 .banner .card{
     width: 384px;
@@ -115,4 +119,9 @@ img{display: block;}
     width: 1280px;
     margin: 0 auto;
     /* position: relative; */
+}
+
+.banner .card:hover img{
+    box-shadow: 30px 30px 20px rgba(0,0,0,0.2);
+    transform: translate(-20px,-20px);
 }
