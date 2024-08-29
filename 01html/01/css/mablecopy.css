@@ -1,0 +1,118 @@
+.hd{
+    /* background-color: ; */
+}
+
+body, html{
+    height: 100vh;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+.menuWrap h1 img{
+    width: 30px;
+    height: 20px;
+
+}
+.menuWrap .logo{
+    display: flex;
+    width: 150px;
+    height: 50px;
+}
+.menuWrap h1{
+    /* background-color: yellow; */
+    font-size: 15px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.menuWrap .gnb{
+    float: right;
+}
+
+.menuWrap .gnb ul{
+    display: flex;
+}
+.menuWrap .gnb li{
+    width: 150px;height: 50px;}
+
+.menuWrap .gnb a{
+    display: block;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menuWrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuWrap .gnb a:hover{
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.visual .item{
+    position: relative;
+    height: 500px;
+    width: 100px;
+    background-color: gray; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+
+.visual .slide{
+    height: 150px
+}
+img{display: block;}
+
+.visual .item.st1{
+    background-image: url(../images/banner01.jpg);
+}
+.visual .item.st2{
+    background-image: url(../images/banner02.jpg);
+}
+.visual .item.st3{
+    background-image: url(../images/banner03.jpg);
+}.visual .item.st4{
+    background-image: url(../images/banner04.jpg);
+}.visual .item.st5{
+    background-image: url(../images/banner05.jpg);
+}
+
+.visual .item .textWrap{
+    color: white;
+    height: 100;
+    justify-content: left;
+    align-items: center;
+    width: 1280px;
+    padding-left: 20px;
+}
+/* .visual .item .textWrap .item.st1 h3{
+    
+} */
+
+.container .card .imgWrap{
+    display: flex;
+
+}
+.container .banner{
+    justify-content: space-between;
+    display: flex;
+}
+.banner .card{
+    width: 384px;
+    height: 580px;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+    /* position: relative; */
+}
