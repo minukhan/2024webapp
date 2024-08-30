@@ -76,3 +76,8 @@
 .customer .item{
     background-color: skyblue;
 }
+.online{
+    background: url(../images2/contact-cover.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
