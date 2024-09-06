@@ -23,7 +23,7 @@ export default createStore({
         `https://api.openweathermap.org/data/2.5/weather?q=${context.state.weatherData.city}&appid=4eedfeb184dc7cb08af6c0bd529c48b9`
       );
       console.log(res.data);
-      // context.commit("updataData", res.data);
+      context.commit("updataData", res.data);
     },
   },
 });
