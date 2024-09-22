@@ -1,6 +1,16 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 
+
+function ddd(res){
+  res
+}
+
+const greet = (name) => {
+  const message = `안녕하세요, ${name}!`;
+  return message;
+};
+
 function App() {
   const listCnt = 10;
   const pagerCnt = 5;
