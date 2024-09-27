@@ -1,21 +1,13 @@
 <template>
   <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top">
     <div class="container">
-<<<<<<< HEAD
-      <router-link class="navbar-brand" to="/">
-=======
       <a class="navbar-brand" href="#">
->>>>>>> 89398f0dd17a79760ef3715fd97c1e1a7382bb92
         <img
           src="../assets/images/logo_innogrid.svg"
           alt=""
           style="width: 120px; height: 40px"
         />
-<<<<<<< HEAD
-      </router-link>
-=======
       </a>
->>>>>>> 89398f0dd17a79760ef3715fd97c1e1a7382bb92
       <button
         class="navbar-toggler"
         type="button"
@@ -36,7 +28,7 @@
             <router-link to="/about" class="nav-link">ABOUT</router-link>
           </li>
           <li class="nav-item">
-<<<<<<< HEAD
+            <<<<<<< HEAD
             <router-link
               :to="{ name: 'portfolio' }"
               class="nav-link"
@@ -44,11 +36,11 @@
             >
               PORTFOLIO
             </router-link>
-=======
+            =======
             <router-link to="/portfolio" class="nav-link"
               >PORTFOLIO</router-link
             >
->>>>>>> 89398f0dd17a79760ef3715fd97c1e1a7382bb92
+            >>>>>>> 89398f0dd17a79760ef3715fd97c1e1a7382bb92
           </li>
         </ul>
       </div>

@@ -13,40 +13,13 @@
     <div class="btn btn-primary" @click="$router.push({ name: 'home' })">
       home
     </div>
-<<<<<<< HEAD
-
-    <div v-if="item">
-      <h1>{{ item.title }}</h1>
-    </div>
-    <div v-else>해당자료를 존재하지 않습니다.</div>
-=======
->>>>>>> 89398f0dd17a79760ef3715fd97c1e1a7382bb92
   </div>
 </template>
 
 <script setup>
-<<<<<<< HEAD
-import { computed } from "vue";
-import { useRoute, useRouter } from "vue-router";
-
 const props = defineProps({
   data: Array,
 });
-
-const route = useRoute();
-const router = useRouter();
-const item = computed(() => {
-  const id = parseInt(route.params.num);
-  return props.data.find((item) => item.id === id);
-});
-
-console.log(route);
-console.log(router);
-=======
-const props = defineProps({
-  data: Array,
-});
->>>>>>> 89398f0dd17a79760ef3715fd97c1e1a7382bb92
 </script>
 
 <style lang="scss" scoped></style>
