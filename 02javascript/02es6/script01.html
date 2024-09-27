@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+<<<<<<< HEAD
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,6 +8,15 @@
    </head>
    <body>
       <!-- 변수 let,const
+=======
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 변수 let,const
+>>>>>>> 89398f0dd17a79760ef3715fd97c1e1a7382bb92
     함수 arrow function
     배열 spread operator
     반복문 for of / map
@@ -14,6 +24,7 @@
     promise 동기, 비동기 - async await
     module -->
 
+<<<<<<< HEAD
       <script>
          let han = 1;
          // han = 10;
@@ -43,3 +54,39 @@
       </script>
    </body>
 </html>
+=======
+    <script>
+        let han = 1;
+        // han = 10;
+        // console.log(han)
+
+        // const obj = function(){
+        //     console.log(han)
+        // }
+
+        const obj = (x,y) => x*y
+
+        obj(10, 20);
+
+        const a = [1,2,3]
+        const b = [...a]
+         b[0] = 10
+        console.log("b :"+b);
+        console.log("a :"+a)
+
+
+        for(const item of a){
+            console.log(item)
+        }
+
+        for(let i=0;i<a.length;i++){
+            console.log(a[i])
+        }
+        
+    </script>
+
+
+
+</body>
+</html>
+>>>>>>> 89398f0dd17a79760ef3715fd97c1e1a7382bb92

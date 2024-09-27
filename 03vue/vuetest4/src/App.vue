@@ -2,6 +2,10 @@
   <div>
     <NavbarView />
     <MainView />
+<<<<<<< HEAD
+=======
+    {{ $store.state.name }}
+>>>>>>> 89398f0dd17a79760ef3715fd97c1e1a7382bb92
   </div>
 </template>
 
@@ -14,6 +18,10 @@ import { useStore } from "vuex";
 const store = useStore();
 
 onMounted(() => {
+<<<<<<< HEAD
+=======
+  // getWeather();
+>>>>>>> 89398f0dd17a79760ef3715fd97c1e1a7382bb92
   store.dispatch("getWeather");
 });
 </script>

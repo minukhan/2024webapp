@@ -24,7 +24,11 @@ const router = createRouter({
     },
     {
       path: "/portfolio/:num",
+<<<<<<< HEAD
       name: "portfolioView",
+=======
+      name: "portfolio detail",
+>>>>>>> 89398f0dd17a79760ef3715fd97c1e1a7382bb92
       component: DetailView,
     },
   ],

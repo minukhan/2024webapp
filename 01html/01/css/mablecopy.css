@@ -1,0 +1,158 @@
+.hd{
+    /* background-color: ; */
+}
+
+body, html{
+    height: 100vh;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+.menuWrap h1 img{
+    width: 30px;
+    height: 20px;
+
+}
+.menuWrap .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11px;
+}
+.menuWrap h1{
+    /* background-color: yellow; */
+    font-size: 15px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.menuWrap .gnb{
+    float: right;
+}
+
+.menuWrap .gnb ul{
+    display: flex;
+}
+.menuWrap .gnb li{
+    width: 150px;height: 50px;}
+
+.menuWrap .gnb a{
+    display: block;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.menuWrap{
+    /* background-color: skyblue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuWrap .gnb a:hover{
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.visual .item{
+    position: relative;
+    height: 1080px;
+    width: 1920px;
+    background-color: gray; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+.visual{
+    height: 1080px;
+    margin-bottom: 100px;
+} 
+.visual .slide{
+    height: 1080px;
+}
+img{display: block;}
+
+.visual .item.st1{
+    background-image: url(../images/banner01.jpg);
+}
+.visual .item.st2{
+    background-image: url(../images/banner02.jpg);
+}
+.visual .item.st3{
+    background-image: url(../images/banner03.jpg);
+}.visual .item.st4{
+    background-image: url(../images/banner04.jpg);
+}.visual .item.st5{
+    background-image: url(../images/banner05.jpg);
+}
+
+.visual .item .textWrap{
+    color: white;
+    height: 100;
+    justify-content: left;
+    align-items: center;
+    width: 1280px;
+    padding-left: 20px;
+}
+/* .visual .item .textWrap .item.st1 h3{
+    
+} */
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+.container .card .imgWrap{
+    display: flex;
+
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner .card{
+    width: 384px;
+    height: 580px;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+    /* position: relative; */
+}
+
+.banner .card:hover img{
+    box-shadow: 30px 30px 20px rgba(0,0,0,0.2);
+    transform: translate(-20px,-20px);
+}
+
+.container .textmid{
+    position: relative;
+    height: 300px;
+    background-color: skyblue;
+    margin-bottom: 100px;
+}
+
+.container .textmid h2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 600px;
+    height: 124px;
+    font-size: 44px;
+
+}
+.container .textmid p{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 600px;
+    height: 56px;
+    font-size: 18px;
+}

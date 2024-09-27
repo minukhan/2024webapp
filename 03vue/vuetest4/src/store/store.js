@@ -19,6 +19,7 @@ export default createStore({
     addCount(state, payload) {
       state.counter++;
     },
+<<<<<<< HEAD
     updataData(state, payload) {
       state.weatherData.icon = payload.weather[0].icon;
       state.weatherData.temp = payload.main.temp;
@@ -26,6 +27,9 @@ export default createStore({
       state.weatherData.location = payload.sys.country;
       state.weatherData.city = payload.name;
     },
+=======
+
+>>>>>>> 89398f0dd17a79760ef3715fd97c1e1a7382bb92
     onSearchCity(state, payload) {
       state.weatherData.city = payload;
     },
