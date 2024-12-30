@@ -4,7 +4,7 @@ import { Link, Navigate, Outlet, useNavigate } from "react-router-dom";
 
 function IndexPage() {
   const navigate = useNavigate();
-
+  //test
   return (
     <Layout>
       <div>
