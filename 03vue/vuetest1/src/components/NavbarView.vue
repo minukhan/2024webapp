@@ -46,7 +46,7 @@ export default {};
          width: 50px;
          height: 5px;
          bottom: -3px;
-         left: 0;
+         left: -10px;
          background-color: rgb(80, 124, 14);
       }
    }

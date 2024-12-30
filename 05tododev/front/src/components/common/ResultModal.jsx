@@ -26,7 +26,11 @@ function ResultModal({ title, content, callbackFn }) {
               }
             }}
           >
+<<<<<<< HEAD
             닫기
+=======
+닫기
+>>>>>>> 80a304dc839f4f3b527fb021905f8f0409e113a6
           </button>
         </div>
       </div>
@@ -34,4 +38,8 @@ function ResultModal({ title, content, callbackFn }) {
   );
 }
 
+<<<<<<< HEAD
 export default ResultModal;
+=======
+export default ResultModal;
+>>>>>>> 80a304dc839f4f3b527fb021905f8f0409e113a6

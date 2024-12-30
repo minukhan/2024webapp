@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.17/jquery.bxslider.css" integrity="sha512-rV4fiystTwIvs71MLqeLbKbzosmgDS7VU5Xqk1IwFitAM+Aa9x/8Xil4CW+9DjOvVle2iqg4Ncagsbgu2MWxKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <style>
+        *{margin: 0;padding: 0;}
+        a:link, a:visited{text-decoration: none; color: black;}
+        .clear:after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        ul,li{list-style: none;}
+        /* reset */
+        
+        /* header */
+        /* .hd{background-color: skyblue;} */
+
+        .menuWrap{
+            width: 1360px;
+            margin: 0 auto;
+            /* background-color: pink; */
+            padding: 10px 0;
+        }
+        .menuWrap h1{
+            float: left;
+            font-size: 20px;
+            width: 100px;
+            /* background-color: blue; */
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        .menuWrap .gnb{
+            float: right;
+        }
+        .menuWrap .gnb ul li{
+            float: left;
+            /* background-color: blue; */
+            width: 100px;
+            height: 50px;
+        }
+        .menuWrap .gnb a{
+            display: block;
+            width: 100%;
+            background-color: white;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 0.3s;
+        }
+        .menuWrap .gnb a:hover{
+            background-color: skyblue;
+        }
+        .visual{
+            background-color: skyblue;
+        }
+        img{display: block;}
+
+        .bx-wrapper{
+            -moz-box-shadow : none;
+            -webkit-box-shadow:none;
+            box-shadow: none;
+            border: 0 none;
+            background: white;
+        }
+
+        .visual .item{
+            height: 300px;
+            background-color: skyblue; 
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .visual .item.st1{
+            background-image: url(./image/banner01.jpg);
+        }
+        .visual .item.st2{
+            background-image: url(./image/banner02.jpg);
+        }
+        .visual .item.st3{
+            background-image: url(./image/banner03.jpg);
+        }
+        .visual .item .textWrap{
+            color: white;
+            width: 1360px;
+            padding-left: 20px;
+        }
+        .visual .item .textWrap .h3{
+            margin-bottom: 10px;
+        }
+
+        .mb10{margin-bottom: 10px !important;}
+        .mb20{margin-bottom: 20px !important;}
+        .mb30{margin-bottom: 30px !important;}
+
+
+    </style>
+</head>
+<body>
+    <header class="hd">
+        <div class="menuWrap clear">
+            <h1>logo</h1>
+            <nav class="gnb">
+                <ul class="clear">
+                    <li><a href="#">menu1</a></li>
+                    <li><a href="#">menu2</a></li>
+                    <li><a href="#">menu3</a></li>
+                    <li><a href="#">menu4</a></li>
+                    <li><a href="#">menu5</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="visual">
+        <ul class="slide">
+            <li class="item st1">
+                <div class="textWrap">
+                    <h3 class="mb20">lorem, ipsum</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, odio.</p>
+                </div>
+                <!-- <img src="./image/banner01.jpg"> -->
+            </li>
+            <li class="item st2">
+                <div class="textWrap">
+                    <h3 class="mb20">lorem, ipsum</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, odio.</p>
+                </div>
+            </li>
+            <li class="item st3">
+                <div class="textWrap">
+                    <h3 class="mb20">lorem, ipsum</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, odio.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.17/jquery.bxslider.min.js" integrity="sha512-LaBO0tZh1+6Ebk+EnHt/WsGM0UnmkCXfQ1rfhGmpa5MXUdslNuSSELBRcteHKz4k4ny+Op10Ax2fPoTNq+VcUg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $(".slide").bxSlider({
+            auto:true
+        });
+    </script>
+</body>
+</html>

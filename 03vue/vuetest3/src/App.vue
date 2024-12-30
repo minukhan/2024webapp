@@ -23,6 +23,7 @@ const weatherData = ref({
   city: "jeju",
 });
 
+// action
 const getWeather = async () => {
   const res = await axios.get(
     `https://api.openweathermap.org/data/2.5/weather?q=${weatherData.value.city}&appid=4eedfeb184dc7cb08af6c0bd529c48b9`

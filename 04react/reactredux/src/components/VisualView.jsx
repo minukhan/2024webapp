@@ -46,7 +46,11 @@ function VisualView() {
         onSlideChange={() => console.log("slide change")}
         style={{ height: "100vh" }}
       >
+<<<<<<< HEAD
         <SwiperSlide>Slide 1</SwiperSlide>
+=======
+        <SwiperSlide>Slide 1 <img src="./vite.svg" alt="Slide 1" /></SwiperSlide>
+>>>>>>> 80a304dc839f4f3b527fb021905f8f0409e113a6
         <SwiperSlide>Slide 2</SwiperSlide>
         <SwiperSlide>Slide 3</SwiperSlide>
         <SwiperSlide>Slide 4</SwiperSlide>
@@ -55,4 +59,8 @@ function VisualView() {
   );
 }
 
+<<<<<<< HEAD
 export default VisualView;
+=======
+export default VisualView;
+>>>>>>> 80a304dc839f4f3b527fb021905f8f0409e113a6

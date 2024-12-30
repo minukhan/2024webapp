@@ -1,13 +1,13 @@
 <template>
   <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top">
     <div class="container">
-      <router-link class="navbar-brand" to="/">
+      <a class="navbar-brand" href="#">
         <img
           src="../assets/images/logo_innogrid.svg"
           alt=""
           style="width: 120px; height: 40px"
         />
-      </router-link>
+      </a>
       <button
         class="navbar-toggler"
         type="button"
@@ -28,6 +28,7 @@
             <router-link to="/about" class="nav-link">ABOUT</router-link>
           </li>
           <li class="nav-item">
+            <<<<<<< HEAD
             <router-link
               :to="{ name: 'portfolio' }"
               class="nav-link"
@@ -35,6 +36,11 @@
             >
               PORTFOLIO
             </router-link>
+            =======
+            <router-link to="/portfolio" class="nav-link"
+              >PORTFOLIO</router-link
+            >
+            >>>>>>> 89398f0dd17a79760ef3715fd97c1e1a7382bb92
           </li>
         </ul>
       </div>
@@ -44,6 +50,7 @@
 
 <script setup></script>
 
+<<<<<<< HEAD
 <style lang="scss" scoped>
 .router-link-active {
   font-weight: bold;
@@ -54,3 +61,6 @@
   }
 }
 </style>
+=======
+<style lang="scss" scoped></style>
+>>>>>>> 89398f0dd17a79760ef3715fd97c1e1a7382bb92

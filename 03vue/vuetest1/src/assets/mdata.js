@@ -1,6 +1,6 @@
 const mdata = [
    {
-      id: 1,
+      // id: 1,
       title: '핸섬가이즈',
       num: '8.6',
       won: '11,000',
@@ -11,7 +11,7 @@ const mdata = [
          '1Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex provident iusto quod vel, minima veritatis nesciunt tempore dolorum suscipit aspernatur.',
    },
    {
-      id: 2,
+      // id: 2,
       title: '탈주',
       num: '8.1',
       won: '11,000',
@@ -22,7 +22,7 @@ const mdata = [
          '2Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex provident iusto quod vel, minima veritatis nesciunt tempore dolorum suscipit aspernatur.',
    },
    {
-      id: 3,
+      // id: 3,
       title: '하이재킹',
       num: '8.7',
       won: '10,900',
@@ -33,7 +33,7 @@ const mdata = [
          '3Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex provident iusto quod vel, minima veritatis nesciunt tempore dolorum suscipit aspernatur.',
    },
    {
-      id: 4,
+      // id: 4,
       title: '핸섬가이즈',
       num: '8.6',
       won: '11,000',
@@ -44,7 +44,7 @@ const mdata = [
          '4Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex provident iusto quod vel, minima veritatis nesciunt tempore dolorum suscipit aspernatur.',
    },
    {
-      id: 5,
+      // id: 5,
       title: '탈주',
       num: '8.1',
       won: '11,000',
@@ -55,7 +55,7 @@ const mdata = [
          '5Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex provident iusto quod vel, minima veritatis nesciunt tempore dolorum suscipit aspernatur.',
    },
    {
-      id: 6,
+      // id: 6,
       title: '하이재킹',
       num: '8.7',
       won: '10,900',

@@ -10,11 +10,14 @@
 }
 
 ul,li{list-style: none;margin: 0;padding: 0;}
+<<<<<<< HEAD
 a:link,a:visited{
     text-decoration: none;
     color: black;
 }
 
+=======
+>>>>>>> 89398f0dd17a79760ef3715fd97c1e1a7382bb92
 
 .testWrap{
     background-color:var(--primary-color-1);
@@ -94,4 +97,8 @@ a:link,a:visited{
 /* footer  */
 .footer{
     background: var(--primary-color-2);
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 89398f0dd17a79760ef3715fd97c1e1a7382bb92

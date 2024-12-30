@@ -44,4 +44,8 @@ function PagerComp({ serverData, movePage }) {
   );
 }
 
+<<<<<<< HEAD
 export default PagerComp;
+=======
+export default PagerComp;
+>>>>>>> 80a304dc839f4f3b527fb021905f8f0409e113a6
